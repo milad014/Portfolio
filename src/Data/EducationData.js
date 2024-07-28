@@ -1,24 +1,36 @@
 const languagesDone = [
     {
-        name: 'C++',
-        percentDone: 90
-    },
-    {
-        name: 'Python',
-        percentDone: 70
-    },
-    {
-        name: 'React Js',
+        name: 'Javascript',
         percentDone: 80
     },
     {
-        name: 'Node Js',
-        percentDone: 70
+        name: 'React Js',
+        percentDone: 85
     },
     {
-        name: 'Dart',
-        percentDone:40
-    }
+        name: 'Vue Js',
+        percentDone: 80
+    },
+    {
+        name: 'Python',
+        percentDone: 30
+    },
+    {
+        name: 'Node Js',
+        percentDone: 40
+    },
+    {
+        name: 'PHP',
+        percentDone: 60
+    },
+    {
+        name: 'Docker',
+        percentDone: 80
+    },
+    {
+        name: 'Linux',
+        percentDone: 80
+    },
 ]
 const EducationData={
     collegeName:"Rajkiya Engineering College, Ambedkar Nagar",

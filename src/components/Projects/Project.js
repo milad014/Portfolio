@@ -16,7 +16,7 @@ const Projects = (props) => {
     let projects = ProjectsData.DUMMY_PROJECTS;
     return (
         <div id="projects">
-            <div className={styles.projects}>
+            {/* <div className={styles.projects}>
                 <section className={styles.projectImg}>
                     <img src={projectCoverImg} alt="" />
                 </section>
@@ -24,19 +24,19 @@ const Projects = (props) => {
                     <h1><span style={{ color: nonThemeColor }}>My Recent </span><span style={{ color: uiColor }}>Works</span></h1>
                     <div>My works makes use of vast variety of latest technology tools. My best experience is to create React projects and deploy them to web applications using Github Pages.</div>
                 </section>
-            </div>
+            </div> */}
             <ProgrammingSkills />
-            <h1 className={styles.projectHeading} style={{ color: nonThemeColor }}>My Projects</h1>
-            <div className={styles.projectList}>
+            {/* <h1 className={styles.projectHeading} style={{ color: nonThemeColor }}>My Projects</h1> */}
+            {/* <div className={styles.projectList}>
                 {projects.map((item, index) => {
                     return <ProjectItem key={index} project={item} />
                 })}
-            </div>
-            <div className={styles.moreProject}>
+            </div> */}
+            {/* <div className={styles.moreProject}>
                 <a target="_blank" rel="noreferrer" href={`${SocialData.githubLink}?tab=repositories`}>
                     <Button className={styles.moreProjectBtn}>More Projects</Button>
                 </a>
-            </div>
+            </div> */}
         </div>
     )
 };
